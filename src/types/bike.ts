@@ -1,4 +1,4 @@
-import {BasicEntity} from "./common";
+import {BasicEntity, PresentedImage} from "./common";
 
 export interface Bike extends BasicEntity {
     name: string;
@@ -10,4 +10,12 @@ export interface Bike extends BasicEntity {
     price: string;
     quantity: number;
     category: string;
+}
+
+export interface PresentedBike extends Bike {
+    images: PresentedImage[];
+}
+
+export interface StoredBike extends Bike {
+    images: string;
 }
