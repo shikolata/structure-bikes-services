@@ -13,3 +13,4 @@ Navigate to `http://localhost:5000/`; the application will automatically reload 
 - Bike Router & Model functions: CRUD operations
 - Image Router & Model functions
 - Interfacing with AWS S3 to save images
+- Authentication & Authorization
