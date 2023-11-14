@@ -7,7 +7,7 @@ export interface Bike extends BasicEntity {
     model: string;
     description: string;
     rating: string;
-    price: string;
+    price: number;
     quantity: number;
     category: string;
 }
