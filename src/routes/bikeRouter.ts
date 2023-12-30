@@ -61,7 +61,7 @@ bikeRouter.delete("/:id", async (req: Request, res: Response) => {
         if (err) {
             return res.status(500).json({"message": err.message});
         }
-        return res.status(200).json({"data": bike});
+        return res.status(200).send();
     })
 });
 
